@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# kodi repo add
-apt install software-properties-common -y
-add-apt-repository ppa:team-xbmc/ppa -y
-
 # update and upgrade
 apt update -y && apt upgrade -y
 
@@ -24,9 +20,6 @@ echo "needs_root_rights=yes" >> /etc/X11/Xwrapper.config
 
 # CP kodi.service to the correct place
 cp kodi.service /etc/systemd/system
-
-# CP powermenu_in_kodi.pkla to the correct place
-cp powermenu_in_kodi.pkla /etc/polkit-1/localauthority/50-local.d
 
 # Start Kodi on boot
 systemctl enable kodi
