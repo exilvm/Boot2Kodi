@@ -18,17 +18,7 @@ The following instructions are based on the lastest version of Ubuntu.
 
 #### What you need to do:
 
-1. Install Ubuntu Server using "[netinstall](http://archive.ubuntu.com/ubuntu/dists/bionic/main/installer-amd64/current/images/netboot/mini.iso)" or "[live-server-iso](https://releases.ubuntu.com/20.04/ubuntu-20.04.2-live-server-amd64.iso)" with only "OpenSSH Server" option.
-2. Make sure git is installed or install git by `sudo apt install git -y`
-3. Clone this repo like `git clone https://github.com/abacao/Boot2Kodi.git`
-4. `cd Boot2Kodi`
-5. Run the installation script `sudo sh ./install.sh`
+1. Install Debian (headless)
+2. Make sure git is installed or install git: `sudo apt install git -y`
+3. Clone this repo and execute the installation: `git clone https://github.com/exilvm/Boot2Kodi.git && cd Boot2Kodi && sudo sh ./install.sh`
 6. Reboot
-
-
-#### If you liked my work, buy me a beer: <br>  BTC:  <br>
-![alt text][logo]
-
-[logo]: https://raw.githubusercontent.com/abacao/minibian-debian-stretch/master/donate.png "Donate"
-
-1AsjyioL6TkRLxSEfUUQLTBE2jcYDkP2wE
