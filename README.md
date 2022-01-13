@@ -5,10 +5,7 @@ Note - Feel free to do pull requests. I'm available to add new developments!
 #### Installation of Kodi into Ubuntu Server:
 
 #### Tested in:
-  - [x] 16.04 LTS (supported by Canonical until 2024)
-  - [x] 18.04 LTS
-  - [x] 20.04 LTS
-  - [x] 21.04
+  - [x] Debian GNU/Linux 11 (bullseye) (Proxmox host)
 
 Please let me know if you have tested this and if something failed.
 
